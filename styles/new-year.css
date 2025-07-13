@@ -50,7 +50,39 @@
     
 }
 .contact:hover{
-    background-color: #005FAC;
+    background-color: purple;
     color: #FFFFFF;
 }
 /* checklist styles */
+.checklist-container{
+    display: flex;
+    padding: 70px 322px 130px 206px;
+}
+.checklist-img{
+    height: 723px;
+    width: 569px;
+    padding: 131px 87px 129px 206px;
+}
+.checklist-details{
+    padding: 370px 322px 214px 87px;
+    
+}
+.checklist-title{
+    font-size: 40px;
+    font-weight: bold;
+    width: 288px;
+    height: 94px;
+    margin-bottom: 24px;
+}
+.checklist-description{
+    width: 416px;
+    height: 50px;
+    font-size: 16px;
+}
+ul li{
+    list-style: none;
+    font-size: 16px;
+}
+.lists{
+    padding-left: 0px;
+}
