@@ -1,0 +1,56 @@
+
+.open-sans-normal> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* banner styles */
+.banner{
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 808px;
+    width: 100%;
+}
+.banner-container{
+    padding: 216px 230px 166px 1000px;
+    text-align: right;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 525px;
+    height: 228px;
+    margin-bottom: 24px;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    height: 78px;
+    width: 494px;
+}
+.contact{
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.contact:hover{
+    background-color: #005FAC;
+    color: #FFFFFF;
+}
+/* checklist styles */
