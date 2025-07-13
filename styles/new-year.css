@@ -172,8 +172,13 @@ input[type="email"]{
     padding: 10px 20px;
     margin-top: 24px;
     margin-bottom: 24px;
-    border: 1px solid white
+    border: 1px solid white;
+    font-size: 18px;
+} 
+input::placeholder{
+    color: #F3F3F3;
+    font-size: 18px;
 }
 .footer-details{
-    padding: 130px 230px 243px 331px
+    padding: 130px 230px 243px 331px;
 }
